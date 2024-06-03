@@ -37,5 +37,7 @@ print_string [perform]
 
 :Plans:
 
-+! print_string [perform] : {True} <-
-	print("hello world");
++! print_string [perform] : {B string1(S1), B string2(S2), B string3(S3)} <-
+                            	append(S1, S2, S4),
+                            	append(S4, S3, S5),
+                            	print(S5);

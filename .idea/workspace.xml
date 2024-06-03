@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca50efd-a91c-4c07-a47e-1a69fdae9723" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/examples/gwendolen/my_project/GridObstacleEnv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/gwendolen/my_project/find_obstacle.ail" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/gwendolen/my_project/find_obstacle.gwen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/gwendolen/tutorials/ChessBoardEnv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/gwendolen/tutorials/chess/chess_game.ail" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/gwendolen/tutorials/chess/chess_game.gwen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcapl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mcapl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/gwendolen/ail_tutorials/tutorial1/hello_world.gwen" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/gwendolen/ail_tutorials/tutorial1/hello_world.gwen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/gwendolen/tutorials/tutorial1/hello_world.ail" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/gwendolen/tutorials/tutorial1/hello_world.ail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/gwendolen/tutorials/tutorial2/pickuprubble.ail" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/gwendolen/tutorials/tutorial2/pickuprubble.ail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/gwendolen/tutorials/tutorial9/strings.gwen" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/gwendolen/tutorials/tutorial9/strings.gwen" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,7 +51,11 @@
     "Application.AIL Run PickupAgent.executor": "Run",
     "Application.AIL.executor": "Run",
     "Application.Run AJPF.executor": "Run",
+    "Application.chess_game.executor": "Run",
+    "Application.find_obstacle.executor": "Run",
+    "Application.pickuprubble.executor": "Run",
     "Application.remote_inspection.executor": "Run",
+    "Application.strings.executor": "Run",
     "JAR Application.RunJPF.jar.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -48,14 +68,20 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Run AJPF">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gwendolen.my_project" />
+      <recent name="gwendolen.tutorials" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.find_obstacle">
     <configuration name="AIL Run PickupAgent" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ail.mas.AIL" />
       <module name="mcapl" />
@@ -70,9 +96,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AIL (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AIL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ail.mas.AIL" />
       <module name="mcapl" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/examples/gwendolen/ail_tutorials/tutorial1/hello_world.ail" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ail.mas.*" />
@@ -87,6 +114,30 @@
       <option name="MAIN_CLASS_NAME" value="gov.nasa.jpf.tool.RunJPF" />
       <module name="mcapl" />
       <option name="PROGRAM_PARAMETERS" value="src/examples/gwendolen/ajpf_tutorials/tutorial1/lifterandmedic.jpf" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chess_game" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ail.mas.AIL" />
+      <module name="mcapl" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/examples/gwendolen/tutorials/chess/chess_game.ail" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="find_obstacle" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ail.mas.AIL" />
+      <module name="mcapl" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/examples/gwendolen/my_project/find_obstacle.ail" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pickuprubble" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ail.mas.AIL" />
+      <module name="mcapl" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/examples/gwendolen/tutorials/tutorial2/pickuprubble.ail" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,16 +158,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.remote_inspection" />
+      <item itemvalue="Application.pickuprubble" />
+      <item itemvalue="Application.find_obstacle" />
+      <item itemvalue="Application.chess_game" />
       <item itemvalue="Application.Run AJPF" />
-      <item itemvalue="Application.AIL (1)" />
+      <item itemvalue="Application.AIL" />
       <item itemvalue="Application.AIL Run PickupAgent" />
       <item itemvalue="JAR Application.RunJPF.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.RunJPF.jar" />
         <item itemvalue="Application.AIL Run PickupAgent" />
-        <item itemvalue="Application.AIL (1)" />
+        <item itemvalue="Application.AIL" />
+        <item itemvalue="JAR Application.RunJPF.jar" />
       </list>
     </recent_temporary>
   </component>

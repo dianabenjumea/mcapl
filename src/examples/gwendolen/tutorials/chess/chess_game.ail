@@ -1,0 +1,6 @@
+mas.file = /src/examples/gwendolen/tutorials/chess/chess_game.gwen
+mas.builder = gwendolen.GwendolenMASBuilder
+
+env = ail.mas.DefaultEnvironment
+
+log.warning = ail.mas.DefaultEnvironment

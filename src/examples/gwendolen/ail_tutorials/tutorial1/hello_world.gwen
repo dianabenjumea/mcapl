@@ -29,8 +29,8 @@ GWENDOLEN
 
 :Initial Goals:
 
-say_hello [perform]
+hello [perform]
 
 :Plans:
 
-+!say_hello [perform] : {True} <- print(hello);
++!hello [perform] : {True} <- print('hi');

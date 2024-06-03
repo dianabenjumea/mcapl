@@ -1,0 +1,24 @@
+GWENDOLEN
+
+:name: robot
+
+:Initial Beliefs:
+
+possible_obstacle(0, 0)
+possible_obstacle(0, 1)
+possible_obstacle(1, 0)
+possible_obstacle(1, 1)
+
+:Initial Goals:
+
+find(obstacle) [achieve]
+
+:Plans:
+
++!find(obstacle) [achieve] : {B possible_obstacle(X, Y), ~B no_obstacle(X, Y)} <- move_to(X, Y);
+
++at(X, Y) : {~B obstacle(X, Y)} <- +no_obstacle(X, Y);
+
++obstacle(X, Y): {B at(X, Y)} <- stop;
+
++find(obstacle): {True} <- print("MISSION COMPLETED");

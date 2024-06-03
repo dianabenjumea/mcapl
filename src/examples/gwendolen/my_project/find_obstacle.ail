@@ -1,0 +1,6 @@
+mas.file = /src/examples/gwendolen/my_project/find_obstacle.gwen
+mas.builder = gwendolen.GwendolenMASBuilder
+
+env = gwendolen.my_project.GridObstacleEnv
+
+log.info = ail.mas.DefaultEnvironment

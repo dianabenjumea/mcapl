@@ -1,0 +1,15 @@
+GWENDOLEN
+
+:name: chess
+
+:Initial Beliefs:
+board_size 8
+
+:Initial Goals:
+print_board [perform]
+
+:Plans:
++!print_board [perform] : {True} <-
+    print("  a b c d e f g h")
+
+

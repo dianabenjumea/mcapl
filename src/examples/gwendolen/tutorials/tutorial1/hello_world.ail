@@ -21,7 +21,7 @@
 // http://www.csc.liv.ac.uk/~lad
 //----------------------------------------------------------------------------
 
-mas.file = /src/examples/gwendolen/tutorials/tutorial1/hello_world.gwen
+mas.file = /src/examples/gwendolen/tutorials/tutorial1/hello.gwen
 mas.builder = gwendolen.GwendolenMASBuilder
 
 env = ail.mas.DefaultEnvironment
